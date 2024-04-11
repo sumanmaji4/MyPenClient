@@ -7,7 +7,7 @@ import {
   ResizablePanelGroup,
 } from '@/components/ui/resizable'
 import { updateFullCode } from '@/redux/slices/compilerSlice'
-import { handleError } from '@/utils/handleError'
+// import { handleError } from '@/utils/handleError'
 import axios from 'axios'
 
 import { FC, useEffect } from 'react'

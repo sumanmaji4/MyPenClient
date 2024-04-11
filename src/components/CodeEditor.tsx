@@ -21,7 +21,7 @@ const CodeEditor: FC<CodeEditorProps> = ({}) => {
   )
 
   const dispatch = useDispatch()
-  const [value, setValue] = React.useState("console.log('hello world!');")
+  // const [value, setValue] = React.useState("console.log('hello world!');")
   const onChange = React.useCallback((value: string) => {
     // taken from https://www.npmjs.com/package/@uiw/react-codemirror
     // console.log('value:', value)
